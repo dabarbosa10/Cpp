@@ -15,11 +15,11 @@ int n1,k1,f1;
 
 cout<<"Type the numbers n and k to calculate the permutation P(n,k)"<<endl;
 cin>>n1>>k1;
-cout<<"The permutation is P("<<n1<<","<<k1<<") is:"<<permu(n1,k1)<<endl;  
+cout<<"The permutation is P("<<n1<<","<<k1<<") is: "<<permu(n1,k1)<<endl;  
 cout<<"Type a number m to calculate the factorial m!"<<endl;
 cin>>f1;
 cout<<"The factorial of "<<f1<<" is "<<factorial(f1)<<endl;
-cout<<"The 
+cout<<"The combination C("<<n1<<","<<k1<<") is: "<<combination(n1,k1)<<endl;
 }
 //########################################################################
 long int permu(int n, int k){
